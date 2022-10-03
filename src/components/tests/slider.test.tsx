@@ -55,7 +55,7 @@ describe('Slider component', () => {
 
   it('is properly accessible', async () => {
     const { container } = render(<Slider />);
-    const accesibilityResults = await axe(container);
-    expect(accesibilityResults).toHaveNoViolations();
+    const accessibilityResults = await axe(container);
+    expect(accessibilityResults).toHaveNoViolations();
   });
 });
