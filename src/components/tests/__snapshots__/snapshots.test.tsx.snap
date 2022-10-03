@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot tests has not changed the rendering of the slider element 1`] = `
+<input
+  aria-valuenow="0"
+  id="spinbutton"
+  role="spinbutton"
+  type="number"
+  value="0"
+/>
+`;
